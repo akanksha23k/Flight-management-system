@@ -48,7 +48,6 @@ public class TravelOptionComparator
             }
             throw  new IllegalArgumentException("Objects must be both Flights or both Accommodations");
         };
-        // Implement comparator logic here
-
     }
 }
+
