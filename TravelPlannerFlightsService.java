@@ -51,6 +51,4 @@ public class TravelPlannerFlightsService {
         // Implement logic here
         return flights.stream().sorted(comparator).collect(Collectors.toList());
     }
-
-
 }
